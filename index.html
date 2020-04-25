@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Resume Website Template</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+
+  <!----------------Header Section-------------------->
+  <section id="Header">
+    <div class="container text-center">
+      <div class="user-box">
+        <img src="img/user.jpg">
+        <h1>Ratthasart HENGPRASERT</h1>
+        <p>Kasetsart University, GPA 3.28</p>
+      </div>
+    </div>
+    <div class="scroll-btn">
+      <div class="scroll-bar"><a href="#about"><span></span></a></div>
+    </div>
+  </section>
+
+  <!----------------User-Info Section-------------------->
+  <section id="User-Info">
+    <div class="nav-bar">
+      <nav class="navbar navbar-expand-lg">
+        <!--<a class="navbar-brand"><img src="img/user1.jpg"</a>-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#top">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">ABOUT ME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resume">RESUME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">PROJECT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!----------------ABOUT-------------------->
+
+    <div class="about container" id="about">
+      <div class="row">
+        <div class="col-md-6 text-center">
+          <img src="img/user2.jpg" class="profile-img">
+        </div>
+        <div class="col-md-6">
+          <h3>WHO AM I ?</h3>
+          <p>My name is Ratthasart Hengprasert.
+            <br>I'm graduated from Kasetsart University,major Information Technology.
+          </p>
+          <div class="skill-bar">
+            <p>UI Design</p>
+            <div class="progress">
+              <div class="progress-bar" style="width:80%;">80%</div>
+            </div>
+
+            <p>Bootstrap</p>
+            <div class="progress">
+              <div class="progress-bar" style="width:75%;">75%</div>
+            </div>
+
+            <p>HTML,CSS,Javascript</p>
+            <div class="progress">
+              <div class="progress-bar" style="width:70%;">70%</div>
+            </div>
+
+            <p>Adobe Photoshop</p>
+            <div class="progress">
+              <div class="progress-bar" style="width:65%;">65%</div>
+            </div>
+
+            <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#skillmodal">
+              More Skills &nbsp; <i class="fab fa-readme"></i>
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="skillmodal" tabindex="-1" role="dialog" aria-labelledby="skillmodal" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="skillmodal">Technical Skills</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+
+                    <p>Java</p>
+                    <div class="progress">
+                      <div class="progress-bar" style="width:70%;">70%</div>
+                    </div>
+
+                    <p>Python</p>
+                    <div class="progress">
+                      <div class="progress-bar" style="width:65%;">65%</div>
+                    </div>
+
+                    <p>C#</p>
+                    <div class="progress">
+                      <div class="progress-bar" style="width:65%;">65%</div>
+                    </div>
+
+                    <p>Database MySQL</p>
+                    <div class="progress">
+                      <div class="progress-bar" style="width:65%;">65%</div>
+                    </div>
+
+                    <p>Oracle</p>
+                    <div class="progress">
+                      <div class="progress-bar" style="width:65%;">60%</div>
+                    </div>
+        
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------------Social Icons-------------------->
+    <div class="social-icons">
+
+      <ul>
+        <a href="https://drive.google.com/file/d/1Zf_QqWYG66aV3tHoxB4-eZ1PGYbWL0rc/view?usp=sharing">
+          <li><i class="fab fa-line"></i></li>
+        </a>
+        <a href="https://www.facebook.com/ratthasat.hengprasert">
+          <li><i class="fab fa-facebook"></i></li>
+        </a>
+        <a href="https://www.instagram.com/ttar_24/">
+          <li><i class="fab fa-instagram"></i></li>
+        </a>
+      </ul>
+    </div>
+
+    <!----------------RESUME-------------------->
+    <div class="resume" id="resume">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="text-center">My Experiences</h3>
+            <ul class="timeline">
+              <li>
+                <h4><span>Now - </span> National Software Contest 22nd (NSC)</h4>
+                <b>Finals :</b> “BEST 2020 (Handwritten Recognition) by Deep Convolutional Neural Network” <br>
+
+                <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#experience1">
+                  Read More
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="experience1" tabindex="-1" role="dialog" aria-labelledby="experience1" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="experience1">Experiences</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">                       
+                        Qualified for the finals, Postponed indefinitely due to Covid-19.
+                        <br>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <h4><span>15 Feb 2020 - </span> 8th The Asia Undergraduate Conference On Computing (AUCC)</h4>
+                <b>Topics : </b> An End-to-End Trainable Thai OCR System Using Deep Recurrent Neural Network<br>
+
+                <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#experience2">
+                  Read More
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="experience2" tabindex="-1" role="dialog" aria-labelledby="experience2" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="experience2">Experience</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">                       
+                        Presented in English, Suan Dusit University, 15 Feb 2020 
+                        <br>
+                        <br>
+                        <img style="height: 200px;width: 350px;" src="img/aucc.jpg" class="profile-img"><br><br>
+                        <b> Award : </b> Good<br>
+                        <b>This project was Published the document. </b>(In progress)
+                        <br>I present an end-to-end trainable model to recognize a Thai word from an image. 
+                        Compared with other previous Thai OCR system, our system has distinctive features 
+                        that can handle arbitrary length of Thai word without character segmentation and 
+                        high level visual features are learned from data. The neural network model is 
+                        composed of 2 main modules: Convolutional Layer and Recurrent Neural Network (LSTM).
+                        
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <h4><span>14 Feb 2020 - </span> National Software Contest 22nd (NSC)</h4>
+                <b>Semifinals :</b> “BEST 2020 (Handwritten Recognition) by Deep Convolutional Neural Network”<br>
+
+                
+                <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#experience3">
+                  Read More
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="experience3" tabindex="-1" role="dialog" aria-labelledby="experience3" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="experience3">Experiences</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">                       
+                        Qualified for the semifinals, Silpakorn University, 14 Feb 2020
+                        <br>
+                        <br>
+                        <img style="height: 200px;width: 150px;" src="img/semifinal.jpg" class="profile-img"> 
+                        <br>
+                        <br>I present a trainable model to recognize a Thai word from an image. 
+                        Compared with other previous Thai OCR system, our system has distinctive 
+                        features that can handle arbitrary length of Thai word without character s
+                        egmentation and high level visual features are learned from data. 
+                        The neural network model is composed of 2 main modules: Convolutional 
+                        Layer and Recurrent Neural Network (LSTM).<br>
+                        <b>This competition measures percentage accuracy in character predictions and techniques.</b>
+                        
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <h4><span>Sep 2019 - </span> National Software Contest 22nd (NSC)</h4>
+                <b> Offer Topics : </b> “BEST 2020 (Handwritten Recognition) by Deep Convolutional Neural Network”<br>
+              </li>
+
+              <li>
+                <h4><span>Sep - Nov 2019 - </span> Final Project</h4>
+                <b> Final Project : </b> “Thai Optical Character Recognition BEST 2020 by Deep Convolutional Neural
+                Network”<br>
+
+                
+                <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#experiencefinalproject">
+                  Read More
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="experiencefinalproject" tabindex="-1" role="dialog" aria-labelledby="experiencefinalproject" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="experiencefinalproject">Experiences</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">                       
+                        Kasetsart University, Sep-Nov 2019
+                        <br>
+                        <br>I created Thai  Optical Character Recognition in order Thai word image to text.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="col-md-6">
+            <h3 class="text-center">My Education</h3>
+            <ul class="timeline">
+              <li>
+                <h4><span>2016 - 2020 - </span> Kasetsart University</h4>
+                <b>Degree : </b> Bachelor of Science in Information Technology<br>
+                <b>Second Class Honors</b><br>
+                <b>Major : </b> Information Technology<br>
+                <b>GPA : </b> 3.28<br>
+              </li>
+
+              <li>
+                <h4><span>2010 - 2016 - </span> Phuket Wittayalai School</h4>
+                <b>Major : </b> Math - Science<br>
+                <p><br></p>
+              </li>
+
+              <li>
+                <h4><span>2004 - 2010 - </span> Anuban Phuket School</h4>
+                <p><br></p>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!----------------Services-------------------->
+    <div class="services" id="services">
+
+      <div class="video">
+        <h1 class="text-center">My Final Project</h1>
+        <p class="text-center">Thai Optical Character Recognition BEST 2020
+          <br>by Deep Convolutional Neural Network</p>
+          <video width="900" height="250" align-text="center"playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"
+          id="myVideo">
+          <source src="img/Final_Project_Thai_OCR.mp4" type="video/mp4">
+        </video>
+        <div class="text-center">
+
+          </video>
+        </div>
+      </div>
+    </div>
+
+    <!----------------Contact-------------------->
+    <div class="contact" id="contact">
+      <div class="container text-center">
+        <h1>Contact Me</h1>
+        <p class="text-center">98/111 Virat hongyok Road , Vichit ,
+          <br>Mueang Phuket , Phuket 83000</p>
+
+        <div class="row">
+          <div class="col-md-4">
+            <i class="fas fa-phone"></i>
+            <p>095-098-1842</p>
+          </div>
+
+          <div class="col-md-4">
+            <i class="fas fa-envelope"></i>
+            <p>ratthasat241998@gmail.com</p>
+          </div>
+
+          <div class="col-md-4">
+            <i class="fab fa-internet-explorer"></i>
+            <p>http://it.flas.kps.ku.ac.th/</p>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary"><a
+            href="https://drive.google.com/file/d/1bKUJVt4l6qo9VDX5hRxZPBd4d5oUUHVe/view?usp=sharing">
+            <i class="fa fa-download"></i>Resume</a></button>
+        <button type="button" class="btn btn-primary"><a
+            href="https://drive.google.com/file/d/1rKc1TAJz3P5bOtGdIRnF__3whkhmjUdX/view?usp=sharing">
+            <i class="fa fa-download"></i>CV</a></button>
+        <button type="button" class="btn btn-primary"><a
+            href="https://drive.google.com/file/d/11QZp-Nx9ZfcAsmfHq0KbwXsIzVZPUJ1n/view?usp=sharing">
+            <i class="fa fa-download"></i>Transcript</a></button>
+      </div>
+
+      <div class="footer text-center">
+        <p>Reference : Dr.Suradej Intagorn, Lecturer</p>
+      </div>
+    </div>
+  </section>
+
+  <!----------------Smooth Scroll-------------------->
+  <script src="smooth-scroll.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
+
+
+
+</body>
+
+</html>
